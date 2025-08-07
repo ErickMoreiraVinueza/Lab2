@@ -1,0 +1,23 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "commonjs, module",
+  "dependencies": {
+    "express": "^5.1.0",
+    "expresss": "^0.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.32.0",
+    "jest": "^30.0.5"
+  }
+}
