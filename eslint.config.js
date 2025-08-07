@@ -1,13 +1,13 @@
 export default [
     {
-        files : ["**/*.js"],
+        files : ['**/*.js'],
         languageOptions: {
             ecmaVersion: 2024,        
-            sourceType: "module", 
+            sourceType: 'module', 
         }, 
         rules:{
             semi: ['error', 'always'],
             quotes: ['error', 'single']
         }
     }
-]
+];
