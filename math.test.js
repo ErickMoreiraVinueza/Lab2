@@ -1,5 +1,4 @@
-const fibonacci = require('./math');
-const factorial = require('./math');
+const { fibonacci, factorial } = require('./math');
 
 describe('fibonacci', () => {
 	test('fibonacci(0) debe ser 0', () => {
