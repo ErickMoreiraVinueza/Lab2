@@ -2,7 +2,7 @@ const { fibonacci, factorial } = require('./math');
 
 describe('fibonacci', () => {
 	test('fibonacci(0) debe ser 0', () => {
-		expect(fibonacci(0)).toBe(10);
+		expect(fibonacci(0)).toBe(0);
 	});
 	test('fibonacci(1) debe ser 1', () => {
 		expect(fibonacci(1)).toBe(1);
